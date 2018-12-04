@@ -1,34 +1,28 @@
-/**********************************************
-*** GENERAL
-**********************************************/
-
-.set_score{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 520px;
-  color: #555;
-  font-size: 18px;
-  font-family: 'Lato';
-  text-align: center;
-  padding: 10px;
-  width: 160px;
-  text-transform: uppercase;
+.final-score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
 }
 
-.set_score:focus{
-  outline: none
-}
+.final-score:focus { outline: none; }
 
+#dice-1 { top: 120px; }
+#dice-2 { top: 250px; }
 
-#dice1{top: 120px}
-#dice2{top: 250px}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 
 .clearfix::after {
@@ -59,8 +53,8 @@ body {
     overflow: hidden;
 }
 
-.player-1-panel,
-.player-2-panel {
+.player-0-panel,
+.player-1-panel {
     width: 50%;
     float: left;
     height: 600px;
@@ -102,7 +96,7 @@ body {
     color: #EB4D4D;
     top: -7px;
     right: 10px;
-
+    
 }
 
 .player-current-box {
